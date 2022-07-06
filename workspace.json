@@ -1,5 +1,11 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "nest-api": "apps/nest-api",
+    "react-app": "apps/react-app",
+    "react-app-e2e": "apps/react-app-e2e",
+    "react-mfe": "apps/react-mfe",
+    "react-mfe-e2e": "apps/react-mfe-e2e"
+  }
 }
