@@ -18,6 +18,9 @@ async function bootstrap() {
   );
   const globalPrefix = 'api';
   app.setGlobalPrefix(globalPrefix);
+  app.enableCors({
+    origin: 'http://localhost:4200',
+  });
   const port = process.env.PORT || 3333;
   await app.listen(port);
   Logger.log(
